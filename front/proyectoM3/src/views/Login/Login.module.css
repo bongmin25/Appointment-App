@@ -1,0 +1,105 @@
+.logo {
+  display: flex;
+  width: 100px;
+  height: 100px;
+  border: 3px solid rgb(38, 204, 38);
+  border-radius: 5px;
+  align-items: center;
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+.formTitle {
+  text-align: center;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 1rem;
+  border-radius: 8px;
+  background-color: #f9f9f973;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 1px;
+}
+
+.formGroup label {
+  margin-bottom: 0.25rem;
+}
+
+.formGroup input {
+  padding: 4px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: poppins;
+}
+
+.errorMessage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  color: rgb(167, 30, 30);
+  font-size: 0.875rem;
+  height: 1.25rem;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.errorMessage.show {
+  opacity: 1;
+}
+
+.submitButton {
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.514);
+  border-radius: 10px;
+  padding: 7px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-family: poppins;
+  font-weight: bold;
+}
+
+.submitButton:hover {
+  background-color: rgba(5, 87, 80, 0.705);
+}
+
+.register {
+  text-decoration: none;
+  color: inherit;
+  font-size: 0.875rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: color 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ccc;
+  height: 30px;
+  width: 100px;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.register:hover {
+  background-color: rgba(53, 211, 106, 0.705);
+}
+
+.logInTitle {
+  text-align: center;
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+  margin-top: 30px;
+  margin-bottom: 40px;
+}

@@ -1,0 +1,44 @@
+.titulo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(8, 70, 16);
+  margin: 50px;
+  font-size: 40px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.contenedorTestimonios {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.sheduleContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  padding: 1rem;
+  border-radius: 8px;
+  background-color: #f9f9f973;
+}
+
+.scheduleButton {
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.514);
+  border-radius: 10px;
+  padding: 7px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-family: poppins;
+  font-weight: bold;
+}
+
+.scheduleButton:hover {
+  background-color: rgba(5, 87, 80, 0.705);
+}

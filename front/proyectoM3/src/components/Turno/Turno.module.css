@@ -1,0 +1,89 @@
+.contenedorTurnos {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  width: 65%;
+  height: auto;
+  color: #000000;
+  margin-bottom: 10px;
+  font-size: 15px;
+  background-color: #d1ebd1c9;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contenedorTurnos:hover {
+  background-color: #d1ebd1;
+}
+
+.info {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.bottomSection {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+}
+
+.subtitle {
+  margin-left: 10px;
+  font-size: 15px;
+  color: #000000;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: #ffffffaf;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.description {
+  margin-left: 135px;
+  color: #000000;
+  grid-column: 2;
+
+}
+
+.turnoButton {
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #104b2a;
+  color: #ffffff;
+  border: 2px solid #000000;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  grid-column: 3;
+  margin-right: 15px;
+  font-family: "Poppins", sans-serif;
+}
+
+.turnoButton:hover {
+  background-color: #a9ffbf;
+  color: black;
+}
+
+.status {
+  grid-column: 1;
+  min-width: 100px;
+  text-align: center;
+  font-weight: bold;
+  margin-left: 60px;
+  margin-right: 20px;
+  font-size: 15px;
+  color: #000000;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: #ffffffaf;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

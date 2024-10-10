@@ -1,0 +1,54 @@
+.navContainer {
+  display: flex;
+  margin-top: 20px;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  background-color: #124b174f;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  width: 100px;
+  height: 100px;
+  border: 3px solid rgb(38, 204, 38);
+  border-radius: 5px;
+}
+
+.perfil {
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.514);
+  border-radius: 10px;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+}
+
+.perfiles {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 70%;
+  margin-right: 50px;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.perfil:hover {
+  background-color: rgba(5, 87, 80, 0.705);
+}
+
+a:visited {
+  color: inherit;
+}
+
+a:active {
+  color: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
